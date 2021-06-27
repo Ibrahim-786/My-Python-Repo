@@ -1,4 +1,7 @@
 # importing required modules
+""" this script will calculate total salary based on 
+   data available in the payslip present in path "C:\\Users\\ipasha\\Desktop\\pay_slips" """
+"""caution this file is path specific and payslip specific """
 import PyPDF2
 import os
  
