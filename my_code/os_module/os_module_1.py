@@ -26,7 +26,7 @@ print(path)
 """ get current working directry for both windows linux  """
 print(os.getcwd())
 
-
+    
 """ change  working directry for both windows linux  """
 os.chdir("C:\\Users\\ipasha\\Desktop\\My_first_Python_Repo")  #it will work fine
 
@@ -53,7 +53,7 @@ os.mkdir("pasha_2")
 os.makedirs("C:\\Users\\ipasha\\Desktop\\My_first_Python_Repo/d1/d2/d3")
 
 
-""" list working directry for bith windows and linux os """
+""" list working directry for both windows and linux os """
 #print(os.listdir())
 list_dir_ls = os.listdir()
 print("\n\n\n\n")

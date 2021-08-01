@@ -19,6 +19,7 @@ if(os_type == "Windows"):
             vaild_drive.append(root_path)
             print(root_path)
             
+            
       
 else:
     print("linux os")

@@ -1,9 +1,14 @@
 """ python script 2 for to find file path if exit """
 import os,platform, sys
 
-root_path = "C:\\Users\\ipasha\\Desktop"
+root_path = "C:\\Users\\ipasha\\Desktop\\DSA_IN_C"
 
 temp_list = list(os.walk(root_path))
+
+for index in temp_list:
+    print(index)
+
+
 file_name= input("enter file name : ")
 count =0
 for p,d,f in temp_list:

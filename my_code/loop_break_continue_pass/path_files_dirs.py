@@ -4,10 +4,11 @@
 import os,sys,platform
 
 path = input("please enter your directory ")
-
-
-
-
+print(os.listdir(path))
 for d in os.listdir(path):
-    if(os.path.isfile(d)):
+    print(d)
+
+print("===============================================")
+for d in os.listdir(path):
+    if(os.path.isdir(d)):
         print(d)

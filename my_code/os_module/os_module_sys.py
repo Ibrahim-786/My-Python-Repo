@@ -11,6 +11,8 @@ x= os.system("dir")
 
 y= os.system("cls")
 
+x= os.system("dir")
+
 if (not (x or y)):
     print("givin commonds found in os")
 else:
